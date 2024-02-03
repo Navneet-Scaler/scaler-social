@@ -1,0 +1,135 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.frame{
+    display:flex;
+    width: Fixed 1280px;
+    height : 66px;
+    padding: 16px, 64px, 16px, 64px;
+    border: 0px, 0px, 1px, 0px;
+    justify-content: space-between;
+    color: #D6DEE5;
+    align-items:center;
+}
+
+.container{
+    position:absolute;
+    width: Fixed (1,280px);
+    height: Fixed (654px);
+    top: 66px;
+}
+
+.left-container{
+    display: flex;
+    width: 768px;
+    height:654px;
+    padding: 184px, 32px, 0px, 32px;
+    gap: 16px;
+    background: #ECF8FF66;
+}
+
+.right-container{
+    display:flex;
+    /* position:relative; */
+    right: 16px;
+    width: 512px;
+    height:654px;
+    padding: 24px;
+    gap: 16px;
+    background-color: #FFFFFF;
+}
+.text-header{
+    display:flex;
+    top:80%;
+    width: 521px;
+    height: 22px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1A2C47;
+    align-items: center;
+    justify-content:center;
+}
+
+.comment-box{
+    display: flex;
+    width: 521px;
+    height: 248px;
+    border: 1px;
+    padding: 24px;
+    gap: 20px;
+    color: #D6DEE5;
+    border-color: #D6DEE5;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.top-sec{
+    position:relative;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    width: Fixed 521px;
+    height: 248px;
+    padding: 24px;
+    border-radius: 8px;
+    border: 1px;
+    gap: 20px;
+    color: solid white;
+    border-color: #D6DEE5;
+    align-items: center;
+}
+.bottom-container{
+    display: flex;
+    width: Fill 473px;
+    height: Hug 54px;
+    padding: 16px, 0px, 0px, 0px;
+    border: 1px, 0px, 0px, 0px;
+    justify-content: space-between;
+    
+}
+
+/* .rght{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+} */
+
+.your-feed{
+    display: flex;
+    position: sticky;
+    width: 464px;
+    height: 22px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 600;
+    size: 16px;
+    line-height: 22px;
+    background-color: #1A2C47;
+}
+
+.box1{
+    display: flex;
+    position:sticky;
+    width: Fill (464px);
+    height: Hug (196px);
+    padding: 24px;
+    border-radius: 8px, 8px, 0px, 0px;
+    border: 1px;
+    gap: 20px;
+    color: #D6DEE5;
+    border-width: 1px;
+    border-color:#D6DEE5;
+}
+
+
+
